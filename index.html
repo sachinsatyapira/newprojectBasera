@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyTree Realty - Your Trusted Real Estate Partner</title>
+    <meta name="description" content="MoneyTree Realty offers comprehensive real estate services including buying, selling, investment planning, and property management. Find your dream home today.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="assets/logo.png" alt="MoneyTree Realty" class="logo">
+                    <span class="brand-text">MoneyTree Realty</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#buying">Buying</a></li>
+                            <li><a href="#selling">Selling</a></li>
+                            <li><a href="#investment">Investment</a></li>
+                            <li><a href="#property-management">Property Management</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#listings" class="nav-link">Listings</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#tools" class="nav-link">Tools</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="tel:+1234567890" class="phone-btn">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <button class="menu-toggle" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Your Dreams, Our Expertise</h1>
+                <p>MoneyTree Realty helps you plant the seeds of your real estate dreams and watch them grow into reality. From first-time buyers to seasoned investors, we're your trusted partner in building wealth through real estate.</p>
+                <div class="hero-buttons">
+                    <a href="#listings" class="btn btn-primary">Browse Properties</a>
+                    <a href="#contact" class="btn btn-secondary">Get Free Consultation</a>
+                </div>
+            </div>
+            <div class="hero-search">
+                <h3>Find Your Dream Home</h3>
+                <form class="search-form">
+                    <div class="search-row">
+                        <input type="text" placeholder="Enter location..." class="search-input">
+                        <select class="search-select">
+                            <option value="">Property Type</option>
+                            <option value="house">House</option>
+                            <option value="condo">Condo</option>
+                            <option value="townhouse">Townhouse</option>
+                            <option value="apartment">Apartment</option>
+                        </select>
+                    </div>
+                    <div class="search-row">
+                        <select class="search-select">
+                            <option value="">Price Range</option>
+                            <option value="0-300000">$0 - $300,000</option>
+                            <option value="300000-500000">$300,000 - $500,000</option>
+                            <option value="500000-750000">$500,000 - $750,000</option>
+                            <option value="750000+">$750,000+</option>
+                        </select>
+                        <select class="search-select">
+                            <option value="">Bedrooms</option>
+                            <option value="1">1+</option>
+                            <option value="2">2+</option>
+                            <option value="3">3+</option>
+                            <option value="4">4+</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-search">
+                        <i class="fas fa-search"></i> Search Properties
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Properties Sold</p>
+            </div>
+            <div class="stat">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat">
+                <h3>98%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+            <div class="stat">
+                <h3>$50M+</h3>
+                <p>Total Sales Volume</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive real estate solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Buying Services</h3>
+                    <p>Find your perfect home with our expert guidance. We help first-time buyers and experienced investors navigate the market with confidence.</p>
+                    <ul>
+                        <li>Market Analysis</li>
+                        <li>Property Search</li>
+                        <li>Negotiation Support</li>
+                        <li>Closing Assistance</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Selling Services</h3>
+                    <p>Maximize your property's value with our proven marketing strategies and expert pricing analysis.</p>
+                    <ul>
+                        <li>Home Valuation</li>
+                        <li>Professional Photography</li>
+                        <li>Marketing Strategy</li>
+                        <li>Open Houses</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Investment Planning</h3>
+                    <p>Build wealth through strategic real estate investments. Our team helps you identify profitable opportunities.</p>
+                    <ul>
+                        <li>Market Research</li>
+                        <li>ROI Analysis</li>
+                        <li>Portfolio Planning</li>
+                        <li>Risk Assessment</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Property Management</h3>
+                    <p>Comprehensive property management services to maximize your rental income and minimize your stress.</p>
+                    <ul>
+                        <li>Tenant Screening</li>
+                        <li>Rent Collection</li>
+                        <li>Maintenance Coordination</li>
+                        <li>Financial Reporting</li>
+                    </ul>
+                    <a href="#contact" class="service-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Listings -->
+    <section id="listings" class="listings">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Properties</h2>
+                <p>Discover your next home from our carefully curated selection</p>
+            </div>
+            <div class="listings-grid">
+                <div class="listing-card">
+                    <div class="listing-image">
+                        <img src="assets/property1.jpg" alt="Modern Family Home">
+                        <div class="listing-badge">For Sale</div>
+                        <div class="listing-price">$485,000</div>
+                    </div>
+                    <div class="listing-content">
+                        <h3>Modern Family Home</h3>
+                        <p class="listing-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            1234 Oak Street, Suburbs
+                        </p>
+                        <div class="listing-features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2,500 sq ft</span>
+                        </div>
+                        <p class="listing-description">Beautiful modern home with updated kitchen, spacious bedrooms, and a large backyard perfect for families.</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="listing-card">
+                    <div class="listing-image">
+                        <img src="assets/property2.jpg" alt="Downtown Condo">
+                        <div class="listing-badge">For Sale</div>
+                        <div class="listing-price">$325,000</div>
+                    </div>
+                    <div class="listing-content">
+                        <h3>Downtown Luxury Condo</h3>
+                        <p class="listing-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            567 City Center Blvd, Downtown
+                        </p>
+                        <div class="listing-features">
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1,200 sq ft</span>
+                        </div>
+                        <p class="listing-description">Stunning city views, modern amenities, and walking distance to restaurants and entertainment.</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="listing-card">
+                    <div class="listing-image">
+                        <img src="assets/property3.jpg" alt="Investment Property">
+                        <div class="listing-badge">Investment</div>
+                        <div class="listing-price">$275,000</div>
+                    </div>
+                    <div class="listing-content">
+                        <h3>Prime Investment Property</h3>
+                        <p class="listing-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            890 Rental Row, Investment District
+                        </p>
+                        <div class="listing-features">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-percentage"></i> 8.5% ROI</span>
+                        </div>
+                        <p class="listing-description">Excellent rental potential in growing neighborhood. Currently generating $2,200/month in rental income.</p>
+                        <a href="#contact" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="listings-cta">
+                <a href="#contact" class="btn btn-primary">View All Properties</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About MoneyTree Realty</h2>
+                    <p class="lead">Growing wealth through real estate since 2008</p>
+                    <p>At MoneyTree Realty, we believe that real estate is more than just buying and selling properties – it's about planting the seeds for your financial future and watching them grow. Our team of experienced professionals is dedicated to helping clients achieve their real estate goals, whether they're first-time homebuyers, seasoned investors, or anyone in between.</p>
+                    <p>With over 15 years of combined experience in the local market, we've helped hundreds of families find their dream homes and investors build substantial portfolios. Our comprehensive approach includes market analysis, investment planning, property management, and ongoing support to ensure your real estate investments continue to flourish.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Award-Winning Service</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <span>Trusted by 500+ Clients</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/team.jpg" alt="MoneyTree Realty Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Estate Tools & Calculators</h2>
+                <p>Make informed decisions with our helpful tools</p>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Mortgage Calculator</h3>
+                    <p>Calculate your monthly payments and see how much home you can afford.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('mortgage')">Use Calculator</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Value Estimator</h3>
+                    <p>Get an instant estimate of your property's current market value.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('valuation')">Get Estimate</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Investment ROI Calculator</h3>
+                    <p>Analyze potential returns on your real estate investments.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('roi')">Calculate ROI</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Refinance Calculator</h3>
+                    <p>See if refinancing could save you money on your mortgage.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('refinance')">Check Savings</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real experiences from real people</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"MoneyTree Realty made our first home buying experience incredibly smooth. Their team was patient, knowledgeable, and always available to answer our questions. We couldn't be happier with our new home!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/client1.jpg" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah & Mike Johnson</h4>
+                            <span>First-Time Homebuyers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"As an investor, I needed a team that understood the market and could identify profitable opportunities. MoneyTree Realty delivered beyond my expectations. My portfolio has grown significantly with their guidance."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/client2.jpg" alt="David Chen">
+                        <div>
+                            <h4>David Chen</h4>
+                            <span>Real Estate Investor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Selling our family home was emotional, but MoneyTree Realty handled everything professionally. They got us top dollar and made the process stress-free. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/client3.jpg" alt="Emily Rodriguez">
+                        <div>
+                            <h4>Emily Rodriguez</h4>
+                            <span>Home Seller</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to start your real estate journey? Contact us today for a free consultation.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:info@moneytreerealty.com">info@moneytreerealty.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Main Street<br>Suite 100<br>Your City, State 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Office Hours</h4>
+                                <p>Mon-Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM<br>Sun: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="firstName" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="lastName" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select name="interest" required>
+                                <option value="">I'm interested in...</option>
+                                <option value="buying">Buying a Home</option>
+                                <option value="selling">Selling a Home</option>
+                                <option value="investing">Real Estate Investment</option>
+                                <option value="management">Property Management</option>
+                                <option value="consultation">Free Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="MoneyTree Realty" class="footer-logo">
+                        <span class="brand-text">MoneyTree Realty</span>
+                    </div>
+                    <p>Growing wealth through real estate. Your trusted partner for buying, selling, and investing in properties.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Buying Services</a></li>
+                        <li><a href="#services">Selling Services</a></li>
+                        <li><a href="#services">Investment Planning</a></li>
+                        <li><a href="#services">Property Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#tools">Mortgage Calculator</a></li>
+                        <li><a href="#tools">Home Value Estimator</a></li>
+                        <li><a href="#tools">Investment ROI Calculator</a></li>
+                        <li><a href="#listings">Property Listings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@moneytreerealty.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Suite 100</li>
+                        <li>Your City, State 12345</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MoneyTree Realty. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Calculator Modal -->
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="calculatorContent">
+                <!-- Calculator content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

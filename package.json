@@ -1,0 +1,25 @@
+{
+  "name": "moneytree-realty-website",
+  "version": "1.0.0",
+  "description": "Professional real estate website for MoneyTree Realty",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "dev": "npx live-server --port=3000"
+  },
+  "keywords": [
+    "real-estate",
+    "property",
+    "realty",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "MoneyTree Realty",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
